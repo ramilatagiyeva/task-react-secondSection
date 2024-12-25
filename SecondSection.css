@@ -1,0 +1,44 @@
+.second {
+  background-color: #f8f8f8; 
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.second-content {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between; 
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #27ce061a; 
+  margin-bottom: 30px; 
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover {
+  transform: translateY(-10px);  
+  box-shadow: 0 8px 20px #1cc705e1; 
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%; 
+}
+
+h4 {
+  font-size: 20px;
+  color: #cc0dcc;
+}
+
